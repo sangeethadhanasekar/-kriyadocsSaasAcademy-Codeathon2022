@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>RESULT</title>
+
+  </head>
+  <body>
+    <div class="container"></div>
+    <script>
+      const jsonfile = JSON.parse({{jsonfile|tojson}});
+      console.log(jsonfile);
+      document.querySelector(".container").innerHTML = JSON.stringify(jsonfile, null, 2);
+    </script>
+    <div class="row">
+  <div class="col-md-12">
+          <button class="btn btn-default">  <a href="{{url_for('main_page')}}" > Back to home page</a></button>
+
+
+  </div>
+
+
+		</div>
+
+  </body>
+</html>
