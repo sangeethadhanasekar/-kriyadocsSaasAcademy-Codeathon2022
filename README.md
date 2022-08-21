@@ -41,8 +41,11 @@ The output is written using the JSON module and it is fetched into the result we
 ##Acknowledgements
 
 -[Flask module](https://pypi.org/project/Flask/)
+
 -[Real-python](https://realpython.com/)
+
 -[borb](https://github.com/jorisschellekens/borb-examples)
--[Fitz](https://pymupdf.readthedocs.io/en/latest/module.html
+
+-[Fitz](https://pymupdf.readthedocs.io/en/latest/module.html)
 
 
