@@ -2,7 +2,7 @@
 
 ## PDF validator 
  
-##*Problem statement:*
+## *Problem statement:*
  
 An application that takes a pdf (generated from an application) as input and certifies if the pdf is valid. To certify that the pdf is valid, it should satisfy the rules given below. 
 Rule 1: Font Style The font style of the PDF should be one among the following: 
@@ -23,7 +23,7 @@ Rule 7: Missing Entity Certain fonts don't support a few entities. For example, 
 Eg: { Missing_Entity: { Page: 2 Line : 4 } Short_column: { Page: 4 } } 
 You can change the structure of JSON if needed. User Interface You can create a simple UI where you can upload a PDF 
  
-My solution: 
+## My solution: 
  
 Rule1:
          
@@ -38,7 +38,7 @@ OUTPUT:
 The output is written using the JSON module and it is fetched into the result webpage.
 
 
-##Acknowledgements
+## Acknowledgements
 
 -[Flask module](https://pypi.org/project/Flask/)
 
