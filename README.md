@@ -6,12 +6,19 @@
  
 An application that takes a pdf (generated from an application) as input and certifies if the pdf is valid. To certify that the pdf is valid, it should satisfy the rules given below. 
 Rule 1: Font Style The font style of the PDF should be one among the following: 
+
 ● ClassGarmond
+
 ● Frutiger LT Pro 
+
 ● Frutiger LT Std 
+
 ● Symbol 
+
 ● Times New Roman
+
 ● Arial 
+
 If there is a font style in any page of the PDF that doesn’t fall in the above list, mark it as an error 
 Rule 2: Minimum lines The minimum number of lines on any page of the PDF is 5. If the PDF has any page with less than 5 lines, mark it as an error 
 Rule 3: Missing header or footer Every PDF that we generate has a header and footer, If the input PDF does not have a header or a footer, mark it as an error 
